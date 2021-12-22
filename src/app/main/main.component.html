@@ -1,0 +1,8 @@
+<div class='container'>
+
+    <h1>Wypróbuj demo sekretarki</h1>
+    <app-text-box [$text]='$text'></app-text-box>
+    <button (click)="onClick($event)"> <i [ngStyle]="{'color': listening ? 'red' : 'inherit'}"
+            class="fas fa-microphone"></i> </button>
+
+</div>

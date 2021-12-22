@@ -1,0 +1,14 @@
+.display{
+    height: 10rem;
+    width: 30rem;
+    padding: 1rem;
+    background-color: gainsboro;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: grey 20px;
+    overflow: auto;
+
+    span{
+        font-size: large;
+    }
+}
